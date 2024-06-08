@@ -1,5 +1,5 @@
 package br.com.LiterBook.service;
 
 public interface IConverteDados {
-    <T> T  obterDados(String json, Class<T> classe);
+    <T> T  getData(String json, Class<T> classe);
 }

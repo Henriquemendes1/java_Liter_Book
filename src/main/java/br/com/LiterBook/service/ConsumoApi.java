@@ -1,5 +1,6 @@
 package br.com.LiterBook.service;
 
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -26,5 +27,4 @@ public class ConsumoApi {
         return json;
     }
 }
-
 
